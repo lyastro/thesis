@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: data/introduction.aux
+A level-1 auxiliary file: data/bao.aux
+A level-1 auxiliary file: data/data.aux
+A level-1 auxiliary file: data/dive.aux
+A level-1 auxiliary file: data/voidbao.aux
+A level-1 auxiliary file: data/summary.aux
+The style file: thuthesis.bst
+A level-1 auxiliary file: data/ack.aux
+A level-1 auxiliary file: data/resume.aux
+Reallocated field_info (elt_size=4) to 10157 items from 5000.
+Database file #1: ref/refs.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--there's a publisher but no address in Bronnimann2015
+Warning--there's a publisher but no address in Jamin2015
+You've used 191 entries,
+            2299 wiz_defined-function locations,
+            1657 strings with 88064 characters,
+and the built_in function-call counts, 117193 in all, are:
+= -- 11646
+> -- 2627
+< -- 13
++ -- 1225
+- -- 614
+* -- 10314
+:= -- 15462
+add.period$ -- 405
+call.type$ -- 191
+change.case$ -- 191
+chr.to.int$ -- 0
+cite$ -- 193
+duplicate$ -- 9166
+empty$ -- 12453
+format.name$ -- 788
+if$ -- 26332
+int.to.chr$ -- 0
+int.to.str$ -- 191
+missing$ -- 191
+newline$ -- 1156
+num.names$ -- 194
+pop$ -- 688
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1345
+stack$ -- 0
+substring$ -- 18231
+swap$ -- 88
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 986
+width$ -- 194
+write$ -- 2293
+(There were 2 warnings)

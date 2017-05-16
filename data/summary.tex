@@ -1,0 +1,36 @@
+\chapter{总结与讨论}
+\label{cha:summary}
+
+\section{总结}
+
+在本工作中，我们开发了一款没有参数且不依赖具体宇宙学模型的工具DIVE，可以非常高效的从离散分布的天体（星系或暗物质晕）中寻找巨洞。DIVE超高的效率允许我们将其用于100组通过\textsc{PATCHY}生成的完整模拟暗物质晕表，得到100组巨洞数据，并以此进行巨洞的统计分析。DT巨洞互相重叠在一起，它们的 中心在宇宙中的分布可以描绘出宇宙低密度区域。所有DT巨洞的数量大约是暗物质晕数密度（$3.5\times 10^{-4}\,h^3\mathrm{Mpc}^{-3}$）的7倍，海量的数据使得巨洞统计分析，特别是成团性分析的结果相对比较可靠。
+
+根据从属关系可以将DT巨洞分为两类，一类是独立巨洞（parent巨洞、disjoint巨洞），另一类是子巨洞（subvoids）。disjoint巨洞的数量在一定程度上代表了宇宙低密度区域的个数，而且越大的disjoint巨洞拥有更多而且更大的子subvoids。但是disjoint巨洞的数密度相对所有DT巨洞很小，其成团性分析的结果信噪比非常低不能得到可靠的结果。
+
+根据半径大小可以将DT巨洞分为两类：半径较大的一类属于\textit{voids-in-voids}，半径较小的属于\textit{voids-in-clouds}。这两类巨洞的性质存在如下区别：
+\begin{description}
+\item[1.] RSD效应对两类巨洞数密度的影响不同。
+\item[2.] 两类巨洞数密度随暗物质晕或星系数密度的变化不同，\textit{voids-in-clouds}类巨洞的数密度随暗物质晕数密度的减小而减小，而\textit{voids-in-voids}类巨洞的数密度随暗物质晕数密度的减小而增大。
+\item[3.] 两类巨洞所处的物质密度场环境不同。几乎所有\textit{voids-in-clouds}类巨洞都在高密度区域，物质在不断的朝巨洞中心内部聚集。而大部分\textit{voids-in-voids}类巨洞处于低密度区域，物质从巨洞内部朝外运动。
+\item[4.] 两类巨洞的bias不同，\textit{voids-in-clouds}的bias为正数而且较大，\textit{voids-in-voids}的bias较小而且为负数。并且不同半径的巨洞还具有不同的scale-dependent bias。
+\end{description}
+
+通过分析处于宇宙高密度区域的星系成团性来测量BAO特征尺度已经得到非常充分的研究和发展，使用BOSS/SDSS-III的数据可以达到1\%的精确度。而本工作的主要目标是首次测量宇宙低密度区域的BAO信号。因此我们先使用完整模拟暗物质晕表数据，计算了不同半径大小DT巨洞的2PCF，开发了不依赖具体宇宙学模型的工具估算BAO信号的信噪比，并用来分析不同尺寸DT巨洞BAO信号的信噪比。\textit{voids-in-voids}类DT巨洞的BAO信号有较高的信噪比。而将\textit{voids-in-clouds}类巨洞与\textit{voids-in-voids}类巨洞混合在一起会使BAO信号的信噪比降低。而BAO信号信噪比最高的巨洞样本（半径$R \geq 16$ $h^{-1}$ Mpc）的bias恰好非常接近于0。
+
+为了估算观测数据的协方差矩阵，我们计算了1024组模拟光锥星系表内\textit{voids-in-voids}类巨洞的2PCF。这1024组模拟光锥星系表数据与观测数据具有相同的数密度分布、红移范围、选择效应和几何效应。为了计算模拟光锥星系表的2PCF，我们首次提出构建使用the Landy $\&$ Szalay estimator计算巨洞2PCF时所需要的随机样本的方法。同时研究了观测数据中影响巨洞2PCF的边界效应。最终我们将以上研究成果用于BOSS/SDSS-III CMASS DR11观测数据，并通过巨洞得到显著性为3.2$\sigma$的BAO信号。
+
+%因为DT巨洞是基于暗物质晕或星系的空间分布
+%Since voids are found based on the distribution of galaxies (or haloes), one may conclude that no additional information is present in the two-point correlation function of voids. However, voids are constructed upon tetrahedra of galaxies including information on higher order statistics. Presumably, the information from higher order statistics is transferred to the two point statistics when we measure the clustering of voids.
+
+%In this work, we develop a new void finder DIVE for efficiently finding voids in both mock halo/galaxy catalogues and in the observed data. Then we study the statistical properties of voids to find the optimal radius cut to classify the DT voids into \textit{voids-in-clouds} and \textit{voids-in-voids}. The \textit{voids-in-voids} are the real troughs of the density field. Then we analyze the clustering of the voids-in-voids with real space mocks, redshift space mocks and the lightcone mocks to show how RSD and other survey-related systematics affect the clustering properties of cosmic voids. Then we apply the same analysis to the DR11 CMASS sample of BOSS/SDSS-III and this is the first BAO measurement from cosmic voids. We also study the improvement of void BAO measurements with a BAO reconstruction method with mock catalogues and the DR12 CAMSS sample of BOSS/SDSS-III. We will compare the cosmology constraint with the BAO measurement from cosmic voids or galaxies by applying the BAO fitting algorithm. Finally we plan to combine the cosmic voids and galaxies for the best BAO constraint on cosmology. 
+
+\section{讨论}
+
+因为DT巨洞来自于星系或暗物质晕所构成的四面体，一方面似乎DT巨洞的2PCF中不存在额外的宇宙学信息，另一方面也可以推测DT巨洞的2PCF中含有星系或暗物质晕的高阶统计信息~\cite{W79}。本工作的研究证明了半径$R \geq 16$ $h^{-1}$ Mpc的DT巨洞中心分布在宇宙低密度区域，与星系或暗物质晕在空间上互补。大半径的DT巨洞与星系或暗物质晕来自同一个物质密度场，所以两者存在很强的负相关性（图~\ref{fig:xcf_box_redshift_space_v_g} ），因此大半径DT巨洞与星系或暗物质晕一样都是相对物质密度场存在bias的天体，都可以独立的提供一部分来自密度场的宇宙学信息，而将两者结合起来计算2PCF可以得到更完整的来自密度场的信息。在未来的工作中，我们将使用来自大半径DT巨洞的BAO信号限制宇宙学参数，并与之前使用星系BAO信号的结果进行对比。然后将大半径DT巨洞通过合理的方式与星系结合起来探测BAO信号，并检查其对宇宙学参数的限制有多大提高。
+
+文献~\inlinecite{Hong2016} 利用79091个红移$z \leq 0.5$的星系团探测到$3.7 \sigma$的BAO信号。 而小半径DT巨洞非常像星系团，因此未来我们也将会研究小半径DT巨洞的BAO信号是否对限制宇宙学参数有所贡献。
+
+目前在测量星系的BAO信号时，重构BAO信号已经成为非常普遍而且必要的步骤来消除非线性效应以提高BAO信号的测量精度。通过数值模拟数据，文献~\inlinecite{Schmittfull2015} 解释了重构BAO信号方法主要利用了星系的三点统计性质和一部分四点统计性质来提高BAO信号的测量精度，文献~\inlinecite{Achitouv2015} 展示了重构BAO信号方法利用环境信息和星系高阶统计性质提高BAO测量精度。文献~\inlinecite{Slepian2015} 从BOSS／SDSS-III CMASS DR12样本的三点相关函数探测到$2.8\sigma$的BAO信号。我们将对模拟暗物质晕表、模拟星系表和观测数据进行BAO信号重构，之后研究其中大半径DT巨洞的BAO信号有什么变化。若无法从大半径DT巨洞中探测到BAO信号，说明DT巨洞的2PCF来自星系或暗物质晕的高阶统计性质；若大半径DT巨洞的BAO信号变化很小，就可以推断DT巨洞的BAO信号受非线性效应影响较小；若大半径DT巨洞的BAO测量精度也有所提高，我们将会使用BAO信号重构之后的DT巨洞和星系探测BAO信号并限制宇宙学参数。
+
+EXTENDED BARYON OSCILLATION SPECTROSCOPIC SURVEY（eBOSS）项目~\cite{Dawson2016} 是SDSS-IV的重要组成部分，该项目会将BOSS的巡天范围扩展到更高红移和其他天体，如相比亮红星系质量较小发射线星系（Emission Line Galaxies，ELG）和在高红移的类星体。未来我们也会研究如何通过ELG或类星体寻找巨洞以测量BAO信号。
+

@@ -1,0 +1,46 @@
+\contentsline {chapter}{\numberline {第1章\hspace {0.3em}}引言}{1}{chapter.1}
+\contentsline {chapter}{\numberline {第2章\hspace {0.3em}}重子声波振荡}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}引言}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}重构BAO信号}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}测量球对称BAO信号}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}拟合相关函数的理论模型}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}协方差矩阵}{8}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {第3章\hspace {0.3em}}数据：模拟暗物质晕表、SDSS观测数据及其模拟光锥星系表}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}完整的模拟暗物质晕表}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}无BAO的完整的模拟暗物质晕表}{11}{section.3.3}
+\contentsline {section}{\numberline {3.4}\textsc {PATCHY}光锥模拟星系表}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}BOSS/SDSS-III CMASS DR11星系表}{13}{section.3.5}
+\contentsline {chapter}{\numberline {第4章\hspace {0.3em}}寻找巨洞及巨洞的统计性质}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}DIVE：Delaunay trIangulation Void findEr}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}巨洞的数密度}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}巨洞中心在空间中的分布}{23}{section.4.4}
+\contentsline {section}{\numberline {4.5}巨洞附近的物质密度分布}{26}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}巨洞中心的物质密度}{26}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}巨洞的物质密度轮廓}{27}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}DT巨洞的动力学特征}{27}{section.4.6}
+\contentsline {section}{\numberline {4.7}DT巨洞的bias}{30}{section.4.7}
+\contentsline {chapter}{\numberline {第5章\hspace {0.3em}}用巨洞探测重子声波振荡信号}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{32}{section.5.1}
+\contentsline {section}{\numberline {5.2}巨洞在完整模拟暗物质晕表里的BAO信号}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}测量完整模拟暗物质晕表内巨洞的2PCF}{32}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}不依赖具体模型的估计BAO信号显著性的方法}{37}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}完整模拟暗物质晕表内测量巨洞BAO信号的最佳子样本}{38}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}分析红移空间完整模拟暗物质晕表不同样本的互相关函数}{38}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}用不含BAO的实空间完整模拟暗物质晕表研究巨洞BAO信号}{42}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}实空间完整模拟暗物质晕表内不重叠的巨洞样本}{43}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}用模拟光锥星系表研究巨洞的BAO信号}{44}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}构建模拟光锥星系表的巨洞数据}{44}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}测量模拟光锥星系表巨洞数据的2PCF}{46}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}用于估计模拟光锥星系表巨洞数据2PCF的方法}{46}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}构建模拟光锥星系表巨洞数据2PCF的随机样本}{47}{subsubsection.5.3.2.2}
+\contentsline {subsection}{\numberline {5.3.3}模拟光锥星系表内测量巨洞BAO信号的最佳子样本}{49}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}BOSS/SDSS-III CMASS DR11样本的巨洞BAO信号}{53}{section.5.4}
+\contentsline {chapter}{\numberline {第6章\hspace {0.3em}}总结与讨论}{57}{chapter.6}
+\contentsline {section}{\numberline {6.1}总结}{57}{section.6.1}
+\contentsline {section}{\numberline {6.2}讨论}{58}{section.6.2}
+\contentsline {chapter}{参考文献}{60}{section*.41}
+\contentsline {chapter}{致\hspace {1em}谢}{71}{section*.43}
+\contentsline {chapter}{声\hspace {1em}明}{73}{section*.45}
+\contentsline {chapter}{个人简历、在学期间发表的学术论文与研究成果}{74}{section*.47}

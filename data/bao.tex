@@ -1,0 +1,139 @@
+\chapter{重子声波振荡}
+\label{cha:bao}
+
+\section{引言}
+在暴涨时因量子涨落造成的宇宙原初密度扰动触发了重子-光子等离子体中的声波振荡。这些声学振荡造成了微波背景辐射各向异性功率谱和宇宙大尺度结构功率谱中的特征尺度~\cite{Sakharov1966,Peebles1970,Sunyaev1970,Blake2003,Seo2003}。这个特征尺度就是本文所主要研究的BAO特征尺度，它可以作为宇宙中的标准尺（cosmological standard ruler）来研究宇宙的膨胀历史和检验不同的宇宙学模型。
+
+最初人们通过CMB~\cite{Bond1984,Bond1987,Jungman1996,Hu1996s,Hu1996w,Hu1997}和物质功率谱~\cite{Kamionkowski1994,Jungman1996,Hu1996s,Eisenstein1998,Meiksin1999}来研究原初宇宙中的声学振荡。2dFGRS早期数据~\cite{Percival2001,Efstathiou2002,Percival2002}和艾贝尔星系团表~\cite{Miller1999}（the Abell/ACO cluster sample）的功率谱中显示了声学振荡存在的一些迹象，但是第一次直接探测到清晰可靠的BAO信号~\cite{Eisenstein2005,Cole2005}来自于对SDSS低红移星系和2dFGRS数据的成团性研究。文献 ~\inlinecite{Eisenstein2005}计算了SDSS所观测的3816平方度天区在红移范围$0.16 < z < 0.47$内亮红星系的两点相关函数，探测到显著性为$3.4\sigma$的BAO信号。文献 ~\inlinecite{Cole2005}通过计算2dFGRS最终观测数据的功率谱证实了BAO的存在并得到对哈勃常数$H_0$ 准确度为4.1\%的测量。
+
+文献 ~\inlinecite{Eisenstein2005}和文献 ~\inlinecite{Cole2005}首次成功的直接探测到BAO信号以后，对BAO特征尺度的测量精度被接下来的大型星系红移巡天项目大大提高。文献 ~\inlinecite{Percival2010}结合了2dFGRS最终观测数据和SDSS-II的数据，并利用FKP方法~\cite{Feldman1994}，测得在红移$z \approx 0.275$处精确度为2.7\%的BAO特征尺度。文献 ~\inlinecite{Eisenstein2007recon}基于数值模拟数据，首次在理论上提出重构BAO信号的方法（BAO reconstruction methods）以消除非线性演化对BAO信号影响。随后文献 ~\inlinecite{Padmanabhan2012}将BAO信号重构改进，使其适用于观测数据（SDSS DR7 LRG样本），利用这一方法BAO特征尺度的测量精度被提高到1.9\%。6度视场星系巡天~\cite{Jones2009}（The Six Degree Field Galaxy Survey，6dFGS）观测了17000平方度范围内红移$z \sim 0.1$处的星系，文献 ~\inlinecite{Beutler2011}利用这些数据得到$2.4\sigma$置信度的BAO信号及精确度为4.5\%的BAO特征尺度。The WiggleZ survey~\cite{Drinkwater2010}利用英澳望远镜（the Anglo-Australian Telescope）观测了红移$0.4 < z < 1.0$内的发射线星系（Emission Line Galaxies，ELG），测到精确度为3.8\%的BAO特征尺度~\cite{Blake2011}。BOSS/SDSS-III计划利用红移$0.2 < z < 0.7$内的星系红移巡天数据取得对BAO特征尺度精确度为1\%的测量，并首次提出利用莱曼$\alpha$森林的吸收线分析$z \sim 2.5$附近中性氢的成团性，和莱曼$\alpha$森林与高红移类星体的互相关函数以探测BAO信号~\cite{White2003,McDonald2007}。
+文献 ~\inlinecite{Anderson2014441}利用BOSS/SDSS-III CMASS DR10和DR11样本测量了球对称BAO特征尺度$D_V(z)$（the isotropic BAO scale），其在红移红移$z=0.32$处精确度为2.0\%和红移$z=0.57$处精确度为1.0\%。$D_V(z)$的定义为
+\begin{equation}
+D_V(z) \equiv \left[ cz (1+z)^2 D_A(z)^2 H^{-1}(z) \right]^{1/3},
+\end{equation}
+其中$c$是光速，$z$是红移，$D_A(z)$是角直径距离（angular diameter distance），$H(z)$是哈勃参量（Hubble parameter）。文献 ~\inlinecite{Okumura2008,Chuang2012}首次提出测量非球对称BAO特征尺度的方法，文献 ~\inlinecite{Anderson2014441}用BOSS/SDSS-III CMASS DR11样本也测量了非球对称BAO特征尺度，在红移$z=0.57$处实现对$D_A(z)$ 精确度为1.4\%和$H(z)$ 精确度为3.5\%的测量，$D_A(z)$与$H(z)$之间相关性系数(correlation coefficient)为$0.539$。
+在有效红移$z \sim 2.34$处，文献 ~\inlinecite{Delubac2015}利用BOSS/SDSS-III CMASS DR11样本的莱曼$\alpha$森林样本得到对$H(z)$ 精确度为2.6\%和对$D_A(z)$ 精确度为5.4\% 的测量，文献 ~\inlinecite{Font-Ribera2014}利用BOSS/SDSS-III CMASS DR11样本中莱曼$\alpha$森林和高红移类星体的互相关函数得到对$H(z)$ 精确度为3.3\%和对$D_A(z)$ 精确度为3.7\% 的测量。
+文献 ~\inlinecite{Alam2016}使用BOSS/SDSS-III最终的DR12样本，
+在红移$z=0.32$处，对$D_V(z)$、$D_A(z)$和$H(z)$的测量精度分别达到1.1\%、1.6\%和2.9\%，
+在红移$z=0.57$处，对$D_V(z)$、$D_A(z)$和$H(z)$的测量精度分别达到1.0\%、1.6\%和2.5\%。
+文献 ~\inlinecite{Bautista2017}利用BOSS/SDSS-III DR12样本的莱曼$\alpha$森林样本，在红移$z=2.33$处，对$D_A(z)$和$H(z)$的测量精度分别达到5.6\%和3.4\%。
+
+\section{重构BAO信号}
+\label{sec:baorecon}
+
+在文献 ~\inlinecite{Eisenstein2005}通过分析SDSS星系样本成团性首次成功的直接探测到BAO信号之后，文献 ~\inlinecite{Eisenstein2007recon}使用宇宙大尺度结构数值模拟数据首次在理论上提出重构BAO信号的方法并展示其效果~\cite{Eisenstein2007b,Padmanabhan2009}。
+关于BAO信号重构的一些其他早期工作也证实了此方法可以提高BAO特征尺度的测量精度。
+文献 ~\inlinecite{Padmanabhan2009}基于拉格朗日微扰论（Lagrangian perturbation theory），从理论的角度分析了BAO信号重构的方法。
+文献 ~\inlinecite{Noh2009}将文献 ~\inlinecite{Padmanabhan2009}的理论工作扩展到偏袒的天体（biased tracer）。
+文献 ~\inlinecite{White2015}基于Zeldovich近似（Zeldovich Approximation）给出了BAO信号重构后（post-reconstruction）相关函数的公式。
+文献 ~\inlinecite{Xu2012}研究了BAO重构对球对称BAO信号的影响，文献 ~\inlinecite{Anderson2012}研究了BAO重构对非球对称BAO信号的影响。
+
+文献 ~\inlinecite{Padmanabhan2012}改进了文献 ~\inlinecite{Eisenstein2007recon}的方法，使得重构BAO信号的算法可以用于观测数据。此后BAO信号重构被广泛用于各种星系红移巡天的星系成团性分析中~\cite{Anderson2012,Anderson2014439,Kazin2014,Tojeiro2014,Burden2015,Ross2015}，对于BAO特征尺度的测量精度最高可以有45\%的提升。
+
+BAO重构的算法包括以下几个步骤：
+\begin{description}
+\item[1.] 暗物质晕或星系是相对物质密度场有偏袒的天体，根据暗物质晕或星系在空间中的离散分布并利用插值算法（如Nearest Grid Point（NGP）或Cloud In Cell（CIC）），可以估算出物质密度场。
+\item[2.] 为了去除非线性效应在小尺度的噪音，需要对上一步所估算的密度场进行平滑长度（SMoothing Length）为SML的高斯过滤（Gaussian filter），被过滤的来自小尺度的高频噪音对大尺度星系巡天的影响微乎其微。
+\item[3.] 用Zeldovich近似求位移场（the displacement field）$\vec{\Psi}$的一阶近似解。在实空间（real space），求解的方程为
+\begin{equation} \label{EQ:psireal}
+\nabla \cdot \vec{\Psi}=-\frac{\delta_g}{b}
+\end{equation}
+其中$\vec{\Psi}$是拉格朗日位移场（Lagrangian displacement field），$\delta_{g}$星系的密度涨落，$b$是星系的偏袒（galaxy bias）。在红移空间（redshift spcae）拉格朗日位移场与密度场的关系变为
+\begin{equation} \label{EQ:displacement}
+\nabla \cdot \vec{\Psi}+f \nabla \cdot (\vec{\Psi} \cdot \hat{s}) \hat{s}=-\frac{\delta_g}{b}
+\end{equation}
+其中
+%$\hat{s}$是星系的矢量位置，
+$\hat{s}$是视线方向（line of sight direction），$f$是宇宙大尺度结构的线性增长率（linear growth rate），
+\begin{equation}
+f \equiv d \ln D(a)/d \ln a \sim\! \Omega_{M}^{0.55}
+\end{equation}
+其中$a$是宇宙标度因子（scale factor of the universe），$D(a)$是宇宙线性增长函数（linear growth function），$\Omega_{M}$物质密度（matter density）相对临界密度（critical density）的比值~\cite{Carroll1992,Linder2005}。将暗物质晕或星系移动$-\vec{\Psi}$，如果是在红移空间还需要将暗物质晕或星系额外移动$-f (\vec{\Psi} \cdot \hat{s}) \hat{s}$。在红移空间，公式~(\ref{EQ:displacement})中额外移动的部分可以在线性理论（linear theory）的尺度上消除红移畸变（redshift space distortion，RSD）效应。这些经过位移的暗物质晕或星系在后文中被表示为D。
+\item[4.] 生成一些均匀随机分布的物体作为随机样本，这些随机样本在后文用R表示。
+\item[5.] 将R复制一份，并按照$-\vec{\Psi}$移动这些样本。因为这些随机样本并没有遭受RSD效应的影响，所以在红移空间不需要做额外的移动。这些经过位移的随机样本在后文用S表示。
+\end{description}
+
+理论上应该对功率谱做傅立叶变换计算得到2PCF，但是因为星系红移巡天数据的体积有限，以及巡天观测存在很多限制，所以对功率谱做傅立叶变换计算所得到的2PCF并不是十分准确。\inlinecite{Landy1993}提出的估算2PCF的方法（The Landy \& Szalay estimator）相对其他方法~\cite{Peebles1974,Hewett1982,Davis1983,Hamilton1993}更加准确，因此被广泛应用。The Landy \& Szalay estimator的表达式为：
+\begin{equation} \label{EQ:lsestimator}
+\xi (s)=\frac {DD(s)-2DR(s)+RR(s)} {RR(s)}
+\end{equation}
+其中$DD(s)$、$DR(s)$和$RR(s)$是对应样本之间在$s$距离上归一化后的样本对数。而估算post-reconstruction样本的2PCF时需要对The Landy \& Szalay estimator做一些更改：
+\begin{equation} \label{EQ:postreconcf}
+\xi (s)=\frac {DD(s)-2DS(s)+SS(s)} {RR(s)}
+\end{equation}
+其中$DD(s)$、$DS(s)$、$SS(s)$和$RR(s)$也是对应样本之间在$s$距离上归一化后的样本对数。
+
+\section{测量球对称BAO信号}
+\label{sec:isobao}
+
+原初宇宙中的声学振荡在重子-光子等离子体中以声速传播。但是随着宇宙的膨胀，宇宙的温度逐渐降低，CMB形成时电子与质子或原子核复合，重子-光子等离子体不复存在，声学视界的大小$r_d$逐渐固定下来，成为可以测量宇宙距离的标准尺。球对称BAO特征尺度就是$r_d$在球面上的平均值，可以通过$D_V(z)/r_d$进行测量。
+
+星系红移巡天所观测到宇宙的体积是锥形的，一般被称作光锥（light-cone）。光锥中星系的坐标为球坐标系（RA，DEC，z），其中RA为Right Ascension，DEC为Declination，z是红移。需要假设一个基准宇宙学模型才能将星系在天球的角度位置和红移转换成共动距离（comoving distance）。而巡天观测中需要假设基准宇宙学模型并测量尺度膨胀参数（the scale dilation parameter），$\alpha$，来测量BAO特征尺度：
+\begin{equation} \label{EQ:alpha}
+\alpha \equiv \frac{D_V(z)r_{d}^{\rm fid}}{D^{\rm fid}_V(z) r_d} 
+\end{equation}
+其中上标${\rm fid}$表示基准宇宙学模型相对应的参数。${r_{d}^{\rm fid}}/{r_{d}}$是BAO特征尺度在共动距离单位下基准宇宙学模型与真实观测的比值。${D_V(z)}/{D_V^{\rm fid}(z)}$是真实观测数据和基准宇宙学模型不同的球面平均的比值。
+
+\subsection{拟合相关函数的理论模型}
+基于线性理论可以构建一个拟合星系非线性相关函数的模版并以此测量BAO特征尺度。BAO特征尺度的相对大小由拟合相关函数的模版函数$\xi^{fit}(s)$里的$\alpha$测量，$\alpha$表示基准宇宙学模型与真实观测值比例。$\xi^{fit}(s)$的表达式为
+\begin{equation} \label{EQ:xifit}
+\xi^{fit}(s) = B^{2} \xi_{m}(\alpha s) + A(s)\,,
+\end{equation}
+其中$B$是归一化因子，$\xi_{m}$是基于线性理论推导得出的线性相关函数模型，$A(s)$用来拟合非线性相关函数的整体轮廓并消除有尺度依赖的偏袒因子（scale-dependent bias factor）的影响：
+\begin{equation}
+A(s)  = \frac{a_1}{s^2} + \frac{a_2}{s} + a_3
+\end{equation}
+其中 $a_1$，$a_2$和$a_3$是待拟合参数，一般不关心其具体数值，所以也被称作多余参数（nuisance parameters）。基于线性理论推导得出的线性相关函数模型$\xi_{m}$的表达式为
+\begin{equation} \label{EQ:xim}
+\xi_m(r) = \int \frac{k^2dk}{2\pi^2}P_m(k) \mathfrak{j}_0 (kr)\mathrm{e}^{-k^2a^2},
+\end{equation}
+其中$P_m(k)$是功率谱模型，$\mathfrak{j}_0$是第一类零阶贝塞尔函数（the 0th-order spherical Bessel function of the first kind）
+\begin{equation}
+\mathfrak{j}_0 (x) =  \frac{\sin{x}}{x}
+\end{equation}
+公式~(\ref{EQ:xim})中
+%的参数$a$是振荡变换核函数$\mathfrak{j}_0 (ks)$的高频阻尼（high-$k$ damping）的额外高斯项。
+参数$a$的存在可以使数值积分更好的收敛，并且取$a = 1 h^{-1}{\rm\;Mpc}$较为合理~\cite{Xu2012}。功率谱模型的表达式为
+\begin{equation}
+P_{\mathrm{m}} (k) = [P_{\mathrm{lin}} (k) - P_{\mathrm{smooth}} (k)] \mathrm{e}^{-k^2 \Sigma^2_{\mathrm{nl}} / 2} + P_{\mathrm{smooth}} (k)
+\end{equation}
+其中$P_{\mathrm{lin}} (k)$是用CAMB~\cite{CAMB2000}计算的线性功率谱，$P_{\mathrm{smooth}} (k)$是用文献 ~\inlinecite{Eisenstein1998}内提供的方法计算的没有声学振荡的功率谱，$\Sigma_{\mathrm{nl}}$是线性BAO信号的标准高斯阻尼因子（the standard Gaussian damping factor）。文献 ~\inlinecite{Xu2012}发现$\Sigma_{\mathrm{nl}}$的值变动时对最终结果影响很小，$\Sigma_{\mathrm{nl}}$的值被固定为$8 h^{-1}\mathrm{Mpc}$。但是文献 ~\inlinecite{Noh2009}的研究表明不固定$\Sigma_{\mathrm{nl}}$时，也就是将$\Sigma_{\mathrm{nl}}$作为一个自由的拟合参数时，可以取得更优的拟合结果。本工作拟合BAO信号时，$\Sigma_{\mathrm{nl}}$是一个被限制在较大范围内的待拟合参数。
+
+\subsection{协方差矩阵}
+
+利用很多组模拟数据~\cite{Hamilton2006,Takahashi2009,Xu2012}（mock catalogues），或者基于微扰论~\cite{Scoccimarro2002}，都可以得到协方差矩阵。用微扰论得到的协方差矩阵不够准确。虽然用很多（成百上千）组模拟数据所得到的协方差矩阵仍然不是十分精确，但这样得到的协方差矩阵相比用微扰论得到的结果要可靠很多。
+
+为了方便与他人已经发表的工作进行对比验证，在我们的工作中采用最常用的方法，协方差矩阵是通过很多模拟数据计算推导的：
+\begin{equation}
+C_{s,ij} = \frac{1}{N_m - 1} \sum^{N_m}_{k = 1} [\xi_k(s_i) - \bar{\xi}(s_i)][\xi_k(s_j) - \bar{\xi}(s_j)]
+\end{equation}
+其中$N_m$是模拟数据的总数，$\xi_k(s_i)$是用第$k$个模拟数据计算在$s_i$距离上的相关函数，$\bar{\xi}(s_i)$是所有模拟数据在$s_i$距离上的平均相关函数。虽然文献 ~\inlinecite{Xu2012}曾经介绍了一种方法可以得到更加平滑的协方差矩阵，但是这个方法没有被后续的研究所广泛采纳~\cite{Mariana2016,Ross2017}。
+
+通过最小化$\chi^2$以获得最佳拟合参数：
+\begin{equation}\label{EQ:chi}
+\chi^2 = (\vec{d} - \vec{m}) C^{-1} (\vec{d} - \vec{m})
+\end{equation}
+其中$\vec{d}$是用数据计算得到的相关函数，$\vec{m}$是用相关函数模型公式~(\ref{EQ:xifit})计算的数值。因为$C_s$相对真实协方差矩阵存在一定程度的偏差，所以需要使用
+\begin{equation}
+C^{-1} = C^{-1}_s \frac{N_{m} - N_{\mathrm{bins}} - 2}{N_{m} - 1}
+\end{equation}
+来获得对真实协方差矩阵的无偏估计~\cite{Hartlap2007,Percival2014}。
+
+假设公式~(\ref{EQ:xifit})中的$\alpha$服从高斯分布~\cite{Xu2012}，似然函数（likelihood function），${\cal L}$，可以表示为 
+\begin{equation}
+{\cal L}(p) \propto \mathrm{e}^{-\chi^2(\alpha)/2}
+\end{equation}
+其中$\chi^2$在公式~(\ref{EQ:chi})中已有定义。通过从$\alpha_{\mathrm{min}}$到$\alpha_{\mathrm{max}}$的一系列格点上计算$\chi^2(\alpha)$来得到似然函数的分布并以此估计$\alpha$的误差。$\alpha$的取值范围（prior）一般为[0.8,1.2]。似然函数的归一化因子需要满足如下条件：
+\begin{equation}
+\int^{\alpha_{\mathrm{max}}}_{\alpha_{\mathrm{min}}} {\cal L}(\alpha) {\mathrm d}\alpha = 1
+\end{equation}
+假设似然函数服从高斯分布，$\alpha$的误差$\sigma_{\alpha}$可以通过下面的公式进行估计
+\begin{equation}
+\sigma^2(\alpha) = \int^{\alpha_{\mathrm{max}}}_{\alpha_{\mathrm{min}}} (\alpha - \mu(\alpha))^2 {\cal L}(\alpha) \mathrm{d}\alpha
+\end{equation}
+其中$\mu(\alpha)$是$\alpha$在${\cal L}(\alpha)$分布下的期望。
+\begin{equation}
+\mu(\alpha) = \int^{\alpha_{\mathrm{max}}}_{\alpha_{\mathrm{min}}} \alpha {\cal L}(\alpha) {\mathrm d}\alpha
+\end{equation}
+
+%\section{测量非球对称BAO信号}

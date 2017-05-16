@@ -1,0 +1,86 @@
+\thusetup{
+  %******************************
+  % 注意：
+  %   1. 配置里面不要出现空行
+  %   2. 不需要的配置信息可以删除
+  %******************************
+  %
+  %=====
+  % 秘级
+  %=====
+  secretlevel={秘密},
+  secretyear={10},
+  %
+  %=========
+  % 中文信息
+  %=========
+  ctitle={用巨洞研究宇宙学},
+  cdegree={理学博士},
+  cdepartment={物理系},
+  cmajor={天体物理},
+  cauthor={梁彧},
+  csupervisor={莫厚俊教授},
+  %cassosupervisor={陈文光教授}, % 副指导老师
+  %ccosupervisor={某某某教授}, % 联合指导老师
+  % 日期自动使用当前时间，若需指定按如下方式修改：
+  % cdate={超新星纪元},
+  %
+  % 博士后专有部分
+  %cfirstdiscipline={计算机科学与技术},
+  %cseconddiscipline={系统结构},
+  %postdoctordate={2009年7月——2011年7月},
+  %id={编号}, % 可以留空： id={},
+  %udc={UDC}, % 可以留空
+  %catalognumber={分类号}, % 可以留空
+  %
+  %=========
+  % 英文信息
+  %=========
+  etitle={Cosmology With Voids},
+  % 这块比较复杂，需要分情况讨论：
+  % 1. 学术型硕士
+  %    edegree：必须为Master of Arts或Master of Science（注意大小写）
+  %             “哲学、文学、历史学、法学、教育学、艺术学门类，公共管理学科
+  %              填写Master of Arts，其它填写Master of Science”
+  %    emajor：“获得一级学科授权的学科填写一级学科名称，其它填写二级学科名称”
+  % 2. 专业型硕士
+  %    edegree：“填写专业学位英文名称全称”
+  %    emajor：“工程硕士填写工程领域，其它专业学位不填写此项”
+  % 3. 学术型博士
+  %    edegree：Doctor of Philosophy（注意大小写）
+  %    emajor：“获得一级学科授权的学科填写一级学科名称，其它填写二级学科名称”
+  % 4. 专业型博士
+  %    edegree：“填写专业学位英文名称全称”
+  %    emajor：不填写此项
+  edegree={Doctor of Philosophy},
+  edepartment={Department of Physics},
+  emajor={Astropysics},
+  eauthor={Liang Yu},
+  esupervisor={Professor Mo Houjun},
+  %eassosupervisor={Chen Wenguang},
+  % 日期自动生成，若需指定按如下方式修改：
+  % edate={December, 2005}
+  %
+  % 关键词用“英文逗号”分割
+  ckeywords={巨洞, 宇宙学, 重子声波振荡, 星系红移巡天, 宇宙大尺度结构},
+  ekeywords={void, cosmology, baryon acoustic oscillation, galaxy redshift survey, large scale structure of Universe.}
+}
+
+% 定义中英文摘要和关键字
+\begin{cabstract}
+  在暴涨时因量子涨落造成的宇宙原初密度扰动触发了重子-光子等离子体中的声波振荡。这些声学振荡导致了微波背景辐射各向异性功率谱和宇宙大尺度结构功率谱中的重子声波振荡特征尺度。重子声波振荡特征尺度可以被当作标准尺来测量宇宙中的距离。通过分析星系的成团性，重子声波振荡已经被成功的直接探测并深入研究。本工作首次提出如何通过宇宙低密度区域的成团性测量重子声波振荡。我们开发了能高效的在星系巡天数据中寻找巨洞的工具DIVE，并将其用于100组宇宙学大尺度结构数值模拟数据获得巨洞样本并研究巨洞的统计性质、空间分布、物质密度轮廓、动力学特性和相对物质密度场的bias。研究结果证实了样本中半径大于$16$ $h^{-1}$ Mpc的巨洞确实分布在宇宙低密度区域。我们通过计算不同半径巨洞中心的两点相关函数来测量重子声波振荡，并提出了一种不依赖宇宙学模型的估算重子声波振荡信号信噪比的方法，用以寻找重子声波振荡信号信噪比最大的巨洞子样本。用所有半径大于$16$ $h^{-1}$ Mpc的巨洞作为样本可以得到信噪比最高的重子声波振荡信号。我们进一步研究了如何用SDSS-III/BOSS CMASS DR11样本中光锥模拟星系表的巨洞数据探测重子声波振荡信号，提出了构建计算巨洞两点相关函数时所需要的随机样本的方法。最终我们使用BOSS CMASS DR11观测数据中的巨洞计算两点相关函数，并通过1024组光锥模拟星系表的巨洞数据估算协方差矩阵，首次成功的使用观测数据中的巨洞获得3.2$\sigma$置信度的重子声波振荡信号。
+\end{cabstract}
+
+% 如果习惯关键字跟在摘要文字后面，可以用直接命令来设置，如下：
+% \ckeywords{\TeX, \LaTeX, CJK, 模板, 论文}
+
+\begin{eabstract}
+  We investigate the necessary methodology to optimally measure the baryon acoustic oscillation (BAO) signal from voids, based on galaxy redshift catalogues. 
+  To this end, we study the dependency of the BAO signal on the population of voids classified by their sizes. 
+  We find for the first time the characteristic features of the correlation function of voids including the first robust detection of BAOs in mock galaxy catalogues. These show an anti-correlation around the scale corresponding to the smallest size of voids in the sample (the void exclusion effect), and  dips at both sides of the BAO peak, which can be used to determine the significance of the BAO signal without any priori model.
+  Furthermore, our analysis demonstrates that there is a scale dependent bias for different populations of voids depending on the radius, with the peculiar property that the void population with the largest BAO significance corresponds to tracers with approximately zero bias on the largest scales.
+  We further investigate the methodology on an additional set of 1,000 realistic mock galaxy catalogues reproducing the SDSS-III/BOSS CMASS DR11 data, to control the impact of sky mask and radial selection function. Our solution is based on generating voids from randoms including the same survey geometry and completeness, and a post-processing cleaning procedure in the holes and at the boundaries of the survey.
+  The methodology and optimal selection of void populations validated in this work have been used to perform the first BAO detection from voids in observations. We use the luminous red galaxies sample from BOSS/SDSS-III CMASS DR11 to unveil a 3.2$\sigma$ BAO detection from vodis for the first time in observation.
+\end{eabstract}
+
+% \ekeywords{\TeX, \LaTeX, CJK, template, thesis}
